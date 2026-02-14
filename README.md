@@ -1,5 +1,8 @@
 # 🔗 Tiny Link
 
+[![Python](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 Self-hosted URL shortener with click tracking.
 
 自托管短链接服务，支持点击统计。
