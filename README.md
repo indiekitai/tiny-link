@@ -69,6 +69,18 @@ curl http://localhost:8083/api/links/abc123/stats
 | `/api/links/{code}/stats` | GET | Click statistics |
 | `/api/links/{code}` | DELETE | Delete link |
 
+### 在线体验
+
+```bash
+# 创建短链接
+curl -X POST https://s.indiekit.ai/api/links \
+  -H "Content-Type: application/json" \
+  -d '{"url": "https://github.com/indiekitai"}'
+
+# 查看统计
+curl https://s.indiekit.ai/api/links/{code}/stats
+```
+
 ## Data Storage
 
 ```
